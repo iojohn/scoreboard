@@ -1,0 +1,141 @@
+body {
+     /*border: 1px dotted red;*/
+    margin: 0;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+
+}
+
+.title_container {
+    /*border: 1px dotted red;*/
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.number_container {
+    /* justify-content: space-around; */
+    /*border: 1px dashed red;*/
+    color: #EEEEEE;
+    display: flex;
+}
+
+.addition_container_home {
+    /*border: 1px dashed red;*/
+    color: #EEEEEE;
+    display: inline-flex;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 78px;
+    justify-content: space-evenly;
+}
+
+.addition_container_guest {
+    /*border: 1px dashed red;*/
+    color: #EEEEEE;
+    display: inline-flex;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 84px;
+    justify-content: space-evenly;
+}
+
+h3 {
+    /* border: 1px solid #EEEEEE; */
+    color: #EEEEEE;
+    height: 36px;
+    width: 149px;
+    text-align: center;
+    /* font-family: veranda; */
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+#home_title {
+    /*border: 1px solid #EEEEEE;*/
+    margin-left: 85px;
+    margin-top: 68px;
+    margin-bottom: 1px;
+    font-family: sans-serif;
+}
+
+#guest_title {
+    /*border: 1px solid #EEEEEE;*/
+    margin-left: 106px;
+    margin-top: 68px;
+    margin-bottom: 20px; /* This fixed the spacing problem between title and num */
+    font-family: sans-serif;
+}
+
+#home_score {
+     /*border: solid 1px #EEEEEE;*/
+    background-color: black;
+    height: 120px;
+    width: 160px;
+    margin-left: 82px;
+    /*margin-top: 0px;*/
+    border-radius: 7px;
+}
+
+#guest_score {
+    /*border: solid 1px #EEEEEE;*/
+    background-color: black;
+    height: 120px;
+    width: 160px;
+    margin-left: 100px;
+    border-radius: 7px;
+}
+
+#home_score_num {
+    /*border: 1px solid #EEEEEE;*/
+    color: #F94F6D;
+    display: inline-flex;
+    width: 75px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-left: 48px;
+    /*padding: 1px 25px;*/
+}
+
+#guest_score_num {
+    /*border: 1px solid #EEEEEE;*/
+    color: #F94F6D;
+    display: inline-flex;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-left: 48px;
+    /*padding: 1px 25px;*/
+}
+
+.add_num_btn {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid  #9AABD8;
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+
+}
+#check {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid  #9AABD8;
+    height: 45px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 82px;
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+/*----------------NOTES------------------------------------------------*/
+/*font-family: 'Cursed Timer ULiL', sans-serif;*/
